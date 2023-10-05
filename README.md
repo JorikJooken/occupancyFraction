@@ -47,6 +47,10 @@ Invoking the command
 
 Will produce for each lambda the graph for which alpha(lambda) is maximal together with the value of alpha(lambda).
 
+### *.mw
+
+There are 5 Maple files ("CR_conj.mw", "PPconj2.mw", "PPconj3.mw", "PPconj4.mw" and "PPconj5.mw"). Each of these files is self-contained and contains a description of what it does. We also provide PDF versions so that the content of the file can also be read in case you do not have Maple available.
+ 
 ## DATA
 ### counterExamplesToConjectures.txt
 
