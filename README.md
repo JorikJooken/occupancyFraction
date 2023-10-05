@@ -31,6 +31,22 @@ SsP@P?SCOO?`?_?O_C??`?A_?C_?A_??[
 
 This means that there are 2 3-regular graphs on 20 vertices with girth at least 4 for which the independence polynomial does not majorize another independence polynomial.
 
+### calcAlphaAndMaximize.cpp
+The program can be compiled by the following command:
+```bash
+g++ -g -std=c++11 -O3 calcAlphaAndMaximize.cpp -o calcAlphaAndMaximizeExecutable
+```
+
+The program expects as input a list of graphs (in graph6 format). The program will compute the occupancy fraction alpha(lambda) for these graphs for lambda=0.1, 0.2, ..., 100.0 and it will output for each lambda which graph has the largest occupancy fraction.
+
+Invoking the command
+
+```bash
+./calcAlphaAndMaximizeExecutable < cage4RegularGirth6And32VertexMaximizer.g6
+```
+
+Will produce for each lambda the graph for which alpha(lambda) is maximal together with the value of alpha(lambda).
+
 ## DATA
 ### counterExamplesToConjectures.txt
 
