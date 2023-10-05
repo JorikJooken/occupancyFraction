@@ -1,5 +1,5 @@
 # Occupancy fraction
-This repository contains code and data related to the occupancy fraction of a graph.
+This repository contains code and data related to the occupancy fraction of a graph. We used this to disprove Conjectures 2, 3, 4 and 5 from the paper "G. Perarnau and W. Perkins. Counting independent sets in cubic graphs of given girth. J. Combin. Theory Ser. B, 133:211–242, 2018."
 
 Below, we briefly describe the different programs. We will assume that Linux is being used and that GENREG is installed. The details on how to install GENREG can be found on [this link](https://www.mathe2.uni-bayreuth.de/markus/reggraphs.html). The graphs that we are dealing with will be in graph6 format.
 
