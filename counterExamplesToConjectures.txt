@@ -1,8 +1,19 @@
-The following graphs are counterexamples to conjecture 2:
+Conjecture from "J. Cutler and A. J. Radcliffe. Minimizing the number of independent sets in triangle-free regular
+graphs. Discrete Math., 341(3):793–800, 2018."
+
+The following graphs are counterexamples to the conjecture
 MsP@P?WCOI?a?a?H_
 Ss???[G?gO?`@??_gC@?PG@?OAG_AA?_C
 The second graph is the dodecahedral graph. It can also be found on House of Graphs (https://houseofgraphs.org/graphs/1043)
 
+----------------------------------------------------------------------------------------------------------------------------
+
+Conjectures 2, 3, 4 and 5 from "G. Perarnau and W. Perkins. Counting independent sets in cubic graphs of given girth. J. Combin. Theory Ser. B, 133:211–242, 2018."
+
+The following graphs are counterexamples to conjecture 2:
+MsP@P?WCOI?a?a?H_
+Ss???[G?gO?`@??_gC@?PG@?OAG_AA?_C
+The second graph is the dodecahedral graph. It can also be found on House of Graphs (https://houseofgraphs.org/graphs/1043)
 
 The following graph is a counterexample to conjecture 3:
 es????FA?O@?@??_?_?C??O?@?????????I??CO??H??@?_?@C??CA???OO??AA???GO???Q????I????S?@???O_G??GC?_??AOA???__G??A?OO???__?

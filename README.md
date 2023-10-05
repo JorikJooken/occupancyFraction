@@ -54,4 +54,5 @@ There are 5 Maple files ("CR_conj.mw", "PPconj2.mw", "PPconj3.mw", "PPconj4.mw" 
 ## DATA
 ### counterExamplesToConjectures.txt
 
-This file contains on overview of the counterexamples that we found to Conjectures 2, 3, 4 and 5 from the paper "G. Perarnau and W. Perkins. Counting independent sets in cubic graphs of given girth. J. Combin. Theory Ser. B, 133:211–242, 2018."
+This file contains on overview of the counterexamples that we found to Conjectures 2, 3, 4 and 5 from the paper "G. Perarnau and W. Perkins. Counting independent sets in cubic graphs of given girth. J. Combin. Theory Ser. B, 133:211–242, 2018." and the conjecture from "J. Cutler and A. J. Radcliffe. Minimizing the number of independent sets in triangle-free regular
+graphs. Discrete Math., 341(3):793–800, 2018."
