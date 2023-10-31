@@ -17,7 +17,7 @@ The program expects as input a list of graphs (in graph6 format, one per line) w
 Invoking the command
 
 ```bash
-./genreg/genreg-incl-bip-march-native-fastest/genreg-incl-bip-march-native-fastest/genreg 20 3 4 -g stdout | ./minimumOccupancyFractionExecutable
+./genregFolder/genreg 20 3 4 -g stdout | ./minimumOccupancyFractionExecutable
 ```
 
 will result in the following output:
