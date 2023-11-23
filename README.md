@@ -48,6 +48,62 @@ Invoking the command
 
 Will produce for each lambda the graph for which alpha(lambda) is maximal together with the value of alpha(lambda).
 
+### countHomomorphisms.cpp
+The program can be compiled by the following command:
+```bash
+g++ -g -std=c++11 -O3 countHomomorphisms.cpp -o countHomomorphismsExecutable
+```
+
+This program expects pairs of graphs (H,G) as input (one graph on each line in graph 6 format). The program will compute hom(G,H): the number of homomorphisms from G to H (as well as the normalized number of homomorphisms obtained by taking the |V(G)|-th root). It will also output for each H which graph G had the highest normalized number of homomorphisms.
+
+Invoking the command
+
+```bash
+./countHomomorphismsExecutable < connectedCounterexampleGalvinGraphs1.g6
+```
+
+will produce the output:
+
+```bash
+nbHom: 24
+normalizedNbHom: 1.48774
+nbHom: 42
+normalizedNbHom: 1.86441
+Bw
+Best: ElUg
+Corresponding: 1.86441
+```
+
+This indicates that hom(G,K_3)=24 and hom(K_{3,3},K_3)=42 (where G is the K_4^{-}-chain as defined in the paper).
+
+### countHomomorphismsLooped.cpp
+The program can be compiled by the following command:
+```bash
+g++ -g -std=c++11 -O3 countHomomorphismsLooped.cpp -o countHomomorphismsLoopedExecutable
+```
+
+This program works similarly as 'countHomomorphisms', but instead it will add a loop to each vertex of H and count the number of homomorphisms from G to H_looped.
+
+Invoking the command
+
+```bash
+./countHomomorphismsLoopedExecutable < connectedCounterexampleGalvinGraphs2.g6
+```
+
+will produce the output:
+
+```bash
+nbHom: 58374
+normalizedNbHom: 3.94255
+nbHom: 3732
+normalizedNbHom: 3.93843
+EfPw
+Best: G}GOW[
+Corresponding: 3.94255
+```
+
+This indicates that hom(G,H_0)=58734 and hom(K_{3,3},H_0)=3732.
+
 ### *.mw
 
 There are 5 Maple files ("CR_conj.mw", "PPconj2.mw", "PPconj3.mw", "PPconj4.mw" and "PPconj5.mw"). Each of these files is self-contained and contains a description of what it does. We also provide PDF versions so that the content of the file can also be read in case you do not have Maple available.
